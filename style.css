@@ -1,0 +1,106 @@
+body {
+  font-family: 'Bevan', cursive;
+  background-color: black;
+  color: rgb(79, 226, 252);
+}
+
+h1 {
+  text-align: center;
+  line-height: 1;
+  margin: 0;
+}
+
+#hra {
+  display:none;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width:1020px;
+  height:700px;
+  background-image: url('obrazky/pozadi.png');
+  background-size: 100% 100%;
+}
+
+#bag {
+  position:absolute;
+  width:100px;
+  height:100px;
+  top: 10px;
+  left: 300px;
+}
+
+#panda {
+  position: absolute;
+  top:500px;
+  left:200px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  width: 1020px;
+  margin: 20px auto 30px auto;
+  background-color: blue;
+  color: white
+  
+
+}
+
+header img {
+  height: 30px;
+  margin-right: 10px;
+  position: center; 
+}
+
+#pocet,
+#cas {
+  font-family: 'Press Start 2P' , cursive;
+  font-size: 20px;
+}
+
+#hra img {
+  position: absolute;
+}
+
+#uvod,
+#konec {
+  display: none;
+  justify-content:center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1020px;
+  height:700px;
+  background-image: url ('obrazky/pozadi2.png');
+  background-size: 100% 100%;
+}
+
+.obsah {
+  width:60%;
+  text-align:center;  
+}
+
+button {
+  margin-top: 30px;
+  padding: 20px 30px;
+  font-family: 'Bevan', cursive;
+  font-size: 36px;
+  line-height: 1;
+  border-radius: 60px;
+  border: 5px solid rgb(79, 226, 252);
+  color: rgb(79, 226, 252);
+  background: linear-gradient(to bottom,#275786, #0e234d );
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  outline:0;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(to bottom,#3677af, #234f79 );
+}
+button:active {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 2px 7px rgba (0, 0, 0, 0.4);
+}

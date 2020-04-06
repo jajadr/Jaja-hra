@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Zachraň pandu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bevan&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+   
+    <header>
+      <div>
+        <img src="obrazky/tresne.png" alt="tresne"width="60px" height="70px"> 
+        <span id="pocet"> 0 </span>
+      </div>  
+
+      <div>
+        <h1>Shopanda</h1>
+        <img src="obrazky/hlava.jpg"
+        alt="hlava"> 
+     
+     </div>
+
+      <div id="cas">
+        00:00
+      </div>
+    </header>
+
+    <div id="uvod">
+      <div class="obsah">
+        <p>Naše malá nezbednice už má sice nakoupeno, ale protrhla se jí taška a všechno jídlo se jí pomalu vysypává.</p>
+        <p>Pomocí šipek ovládáš pandu s košíkem, aby všechen nákup pochytala.</p>
+        <p>Povede se ti zachránit co nejvíce nakoupených věcí, aby naše malá nezbednice nebyla o hladu? </p>
+
+        <button id="start">Start hry</button>
+      </div>
+    </div>
+        
+    <div id="hra">
+      <img id="bag" src="obrazky/bag.png" alt="bag">
+      <img id="panda" src="obrazky/panda.png" alt="panda">
+    </div>
+
+    <div id="konec">
+      <div class="obsah">
+        <h2>Došel ti čas!</h2>
+
+        <p>Děkuji za pomoc</p>
+        <p id="vysledek"></p>
+    
+
+        <button id="znovu">Hrát znovu</button>
+      </div> 
+    </div>   
+
+    <audio id="hudba" src="zvuky/hudba.mp3" loop preload="auto"></audio>
+    <audio id="zvuk-boom" src="zvuky/boom.mp3" preload="auto"></audio>
+    <audio id="zvuk-mlask" src="zvuky/mlask.mp3" preload="auto"></audio>
+
+    
+    
+   
+
+    <script src="script.js"></script>
+  </body>
+</html>
